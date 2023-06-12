@@ -4,7 +4,7 @@ services:
   python_custom_service:
     build: 
       context: .
-      dockerfile: db_attach.dockerfile
+      dockerfile: python_custom_project.dockerfile
     container_name: test_container
     restart: always
     links:
